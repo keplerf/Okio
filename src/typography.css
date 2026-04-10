@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Gordita';
+  src: url(../static/fonts/gordita-medium.otf);
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url(../static/fonts/gordita-bold.otf);
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url(../static/fonts/gordita-light.otf);
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gordita';
+  src: url(../static/fonts/gordita-thin.otf);
+  font-weight: lighter;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gordita';
+  src: url(../static/fonts/gordita-regular.otf);
+  font-weight: normal;
+  font-display: swap;
+}

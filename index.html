@@ -1,0 +1,24 @@
+<!-- The svg renders fine in a plain HTML file -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      #root {
+        height: 48px;
+        width: 48px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      document.getElementById('root').innerHTML =
+        '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48"><defs><path id="a" d="M0 .77h47.23V48H0z"/></defs><g fill="none" fill-rule="evenodd"><path fill="#7F87FF" d="M23.62 39.28A2.5 2.5 0 1125.38 35c.47.47.74 1.1.74 1.77a2.52 2.52 0 01-2.5 2.5m-.09-7.45a2.5 2.5 0 01-2.5-2.5v-.25c0-2.92 1.7-5.54 4.43-6.84a4.52 4.52 0 002.59-4.3 4.6 4.6 0 00-4.3-4.3 4.43 4.43 0 00-3.34 1.25c-.9.86-1.4 2.02-1.4 3.27a2.5 2.5 0 11-5 0 9.43 9.43 0 012.95-6.89 9.41 9.41 0 017.02-2.62 9.5 9.5 0 013.62 18.12 2.6 2.6 0 00-1.57 2.31v.25a2.5 2.5 0 01-2.5 2.5"/><g transform="translate(0 -.77)"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path fill="#000" d="M23.62 5.77A18.64 18.64 0 005 24.39 18.64 18.64 0 0023.62 43a18.64 18.64 0 0018.6-18.61 18.64 18.64 0 00-18.6-18.62m0 42.23A23.64 23.64 0 010 24.39 23.64 23.64 0 0123.62.77a23.64 23.64 0 0123.6 23.62A23.64 23.64 0 0123.63 48" mask="url(#b)"/></g></g></svg>'
+    </script>
+  </body>
+</html>

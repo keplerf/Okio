@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@primitives/*": ["./primitives/*"],
+      "@components/*": ["./components/*"],
+      "@containers/*": ["./containers/*"],
+      "@context/*": ["./context/*"],
+      "@images/*": ["../static/images/*"],
+      "@helpers/*": ["./helpers/*"],
+      "@themes/*": ["./themes/*"],
+    }
+  }
+}

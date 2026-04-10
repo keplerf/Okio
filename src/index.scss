@@ -1,0 +1,47 @@
+html,
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Gordita', Helvetica, sans-serif;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+b {
+  font-weight: bold;
+}
+
+p,
+span,
+div,
+a,
+button,
+input {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  margin: 4px 0;
+}
+body {
+  margin: 0;
+}
+
+* {
+  z-index: 10;
+}
+
+a:focus,
+button:focus-visible {
+  outline: 3px solid #6870f0;
+  box-shadow: 0 0 2px 2px #6870f0;
+}
